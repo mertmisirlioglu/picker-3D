@@ -48,7 +48,7 @@ public class Picker : MonoBehaviour
             {
                 return;
             }
-            rb.velocity = new Vector3(t.deltaPosition.x * 0.1f, 0, rb.velocity.z);
+            rb.velocity = new Vector3(t.deltaPosition.x * 0.15f, 0, rb.velocity.z);
         }
     }
 
